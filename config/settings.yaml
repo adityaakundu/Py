@@ -1,0 +1,9 @@
+project_name: "Aether-Nexus-v3"
+api_version: "v1.4.2"
+database:
+  driver: "postgresql+asyncpg"
+  pool_size: 20
+  timeout: 30s
+features:
+  enable_clustering: true
+  compression_level: 9
